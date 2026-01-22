@@ -52,3 +52,12 @@ img{
     width:100%;
     height: auto;
 }
+
+/*  Layout  */
+.container{
+    max-width: 982px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
