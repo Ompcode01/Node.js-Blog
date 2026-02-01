@@ -15,10 +15,29 @@ router.get('', (req, res) => {
 
 function insertPostData() {
     Post.insertMany([
-        
+        {
+            title: "Building a Blog",
+            body: "This is the body texxt"
+        },
+        {
+            title: "Building a Blog",
+            body: "This is the body texxt"
+        },
+        {
+            title: "Building a Blog",
+            body: "This is the body texxt"
+        },
+        {
+            title: "Building a Blog",
+            body: "This is the body texxt"
+        },
+        {
+            title: "Building a Blog",
+            body: "This is the body texxt"
+        }
     ])
 }
-
+insertPostData();
 
 
 
